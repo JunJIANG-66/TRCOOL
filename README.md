@@ -18,6 +18,14 @@ This project demonstrates a complete **path planning** pipeline that combines:
 
 The workflow is inspired by autonomous navigation systems in robotics, where a robot must find a collision-free and smooth path from a start point to a goal.
 
+### Step 1. Map Creation and Obstacles
+
+A 2D occupancy grid map is generated using NumPy, where:
+
+0 represents free space
+
+1 represents occupied cells (obstacles)
+
 
 
 ```python
