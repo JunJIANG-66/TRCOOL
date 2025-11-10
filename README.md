@@ -20,9 +20,9 @@ The workflow is inspired by autonomous navigation systems in robotics, where a r
 
 ### Step 1. Map Creation and Obstacles
 
-A 2D occupancy grid map is generated using NumPy, where:
+- `0` represents free space  
+- `1` represents occupied cells (obstacles)
 
-0 represents free space
 
 1 represents occupied cells (obstacles)
 
