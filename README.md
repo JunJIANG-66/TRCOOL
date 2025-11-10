@@ -1,5 +1,3 @@
-# TRCOOL
-
 ## Path Planning with A* and Spline Smoothing
 
 ### Overview
@@ -17,6 +15,8 @@ This project demonstrates a complete **path planning** pipeline that combines:
 5. Visualization with Matplotlib
 
 The workflow is inspired by autonomous navigation systems in robotics, where a robot must find a collision-free and smooth path from a start point to a goal.
+
+---
 
 ### Step 1. Map Creation and Obstacles
 
