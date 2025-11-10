@@ -33,8 +33,28 @@ A 2D occupancy grid map is generated using NumPy, where:
 grid = np.zeros((25, 25))
 
 # Define several rectangular obstacles
+
 grid[5:10, 5:8] = 1     # obstacle 1
 grid[12:17, 10:13] = 1  # obstacle 2
 grid[7:12, 17:20] = 1   # obstacle 3
 grid[15:22, 4:6] = 1    # obstacle 4
 ```
+
+The ``start`` and ``goal`` positions are defined as:
+
+ ```python
+start = (2, 2)
+goal = (22, 22)
+```
+
+
+
+
+
+
+
+
+
+
+
+
