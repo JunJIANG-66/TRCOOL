@@ -13,8 +13,8 @@ The repository contains modular work packages (WPs) that cover the entire system
 | Work Package | Title | Description |
 |---------------|--------|-------------|
 | **WP1** | Path Planning | Algorithms for global route generation, obstacle avoidance, and trajectory smoothing |
-| **WP2** | Perception & Mapping *(optional placeholder)* | Environment understanding and grid/occupancy mapping |
-| **WP3** | Control & Kinematics *(optional placeholder)* | Low-level motor control and trajectory tracking |
+| **WP2** | --- | --- |
+| **WP3** | --- | --- |
 | **WP4** | ROS Integration & Simulation | ROS-based implementation, Gazebo/RViz visualization, and message communication |
 
 ---
@@ -69,6 +69,9 @@ For ROS components (WP4):
 ```kotlin
 TRCOOL_Project/
 │
+├── Image/
+│   └── Path_Trajectory.png
+│
 ├── WP1_PathPlanning/
 │   ├── Path_Planning.py
 │   ├── README.md
@@ -77,9 +80,6 @@ TRCOOL_Project/
 │   ├── launch/
 │   ├── src/
 │   ├── README.md
-│
-├── Image/
-│   └── Path_Trajectory.png
 │
 └── README.md   ← (this file)
 
