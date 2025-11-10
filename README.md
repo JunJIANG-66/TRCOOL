@@ -6,6 +6,20 @@
 
 This project demonstrates a complete **path planning** pipeline that combines:
 
+1. Map creation with obstacles
+
+2. A* search algorithm for global path planning
+
+3. Obstacle inflation for safety margins
+
+4. Path smoothing using cubic B-spline interpolation
+
+5. Visualization with Matplotlib
+
+The workflow is inspired by autonomous navigation systems in robotics, where a robot must find a collision-free and smooth path from a start point to a goal.
+
+
+
 ```python
 
 # Example: Map creation with obstacles
