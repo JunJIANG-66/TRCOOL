@@ -250,5 +250,5 @@ plt.grid(True)
 plt.show()
 ```
 
-![image]()
+![image](https://github.com/JunJIANG-66/TRCOOL/blob/main/Image/Path_Trajectory.png)
 
