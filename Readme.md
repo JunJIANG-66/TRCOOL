@@ -31,11 +31,31 @@ Key features include:
 - **Matplotlib visualization** for debugging and analysis  
 
 📁 Related code and documentation:  
-[`/WP1_PathPlanning/README.md`](WP1_PathPlanning/README.md)
+[`Path_Planning.md`](Path_Planning.md)
 
-Quick example (simplified A* usage):
+## WP4 — ROS Integration
 
-```python
-path = astar(grid, start=(2, 2), goal=(22, 22))
-plt.plot(*zip(*path), 'o--')
-plt.show()
+
+**WP4** focuses on bringing the algorithms developed in WP1–WP3 into a **ROS environment**.
+This includes:
+
+- ROS nodes for path planning, map publishing, and robot control
+
+- Interfacing between nav_msgs/Path, geometry_msgs/PoseStamped, etc.
+
+- Visualization in **RViz**
+
+- Simulation in **Gazebo**
+
+📁 Related folder:
+[`/WP4_ROS/README.md`](WP4_ROS/README.md)
+
+
+
+
+
+
+
+
+
+
