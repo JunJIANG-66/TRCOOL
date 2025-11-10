@@ -31,7 +31,7 @@ Key features include:
 - **Matplotlib visualization** for debugging and analysis  
 
 📁 Related code and documentation:  
-[`Path_Planning.md`](Path_Planning.md)
+[`/WP1_PathPlanning/README.md`](WP1_PathPlanning/README.md)
 
 ## WP4 — ROS Integration
 
@@ -51,7 +51,39 @@ This includes:
 [`/WP4_ROS/README.md`](WP4_ROS/README.md)
 
 
+## 🛠️ Dependencies
 
+Make sure you have the following installed:
+
+```bash
+pip install numpy matplotlib scipy
+```
+
+For ROS components (WP4):
+```bash
+
+```
+
+## 🧭 Repository Structure
+
+```kotlin
+TRCOOL_Project/
+│
+├── WP1_PathPlanning/
+│   ├── Path_Planning.py
+│   ├── README.md
+│
+├── WP4_ROS/
+│   ├── launch/
+│   ├── src/
+│   ├── README.md
+│
+├── Image/
+│   └── Path_Trajectory.png
+│
+└── README.md   ← (this file)
+
+```
 
 
 
