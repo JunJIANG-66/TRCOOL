@@ -56,7 +56,7 @@ This includes:
 Make sure you have the following installed:
 
 ```bash
-pip install numpy matplotlib scipy
+pip install numpy matplotlib heapq scipy
 ```
 
 For ROS components (WP4):
