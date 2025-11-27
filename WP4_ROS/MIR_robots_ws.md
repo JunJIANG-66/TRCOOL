@@ -30,14 +30,38 @@ sudo apt install ros-noetic-mir-robot
 ```
 
 > [!CAUTION]
-> Binary installation unavailable
+> Binary install unavailable
 
+## Source install
+For a source install, run the commands below instead of the command from the "binary install" section.
+```ruby
+# create a catkin workspace
+mkdir -p ~/MIR_robots_ws/src
+cd ~/MIR_robots_ws/src/
 
+# clone mir_robot into the catkin workspace
+git clone -b noetic https://github.com/DFKI-NI/mir_robot.git
 
+# use rosdep to install all dependencies (including ROS itself)
+sudo apt-get update
+sudo apt-get install -y python3-rosdep
+sudo rosdep init
+rosdep update --include-eol-distros
+rosdep install --from-paths ./ -i -y --rosdistro noetic
 
+# build all packages in the catkin workspace
+source /opt/ros/noetic/setup.bash
+catkin_init_workspace
+cd ~/MIR_robots_ws
+catkin_make -DCMAKE_BUILD_TYPE=RelWithDebugInfo
+```
 
-
-
+You should add the following line to the end of your `~/.bashrc`, and then close and reopen all terminals:
+```ruby
+source ~/MIR_robots_ws/devel/setup.bash
+```
+> [!NOTE]
+> `MIR_robots_ws` is your workspace name; you can replace it with any name you prefer.
 
 
 
