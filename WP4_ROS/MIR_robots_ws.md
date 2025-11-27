@@ -25,7 +25,7 @@ sudo apt-get update -qq
 
 ## Binary install
 For a binary install, it suffices to run this command:
-```
+```ruby
 sudo apt install ros-noetic-mir-robot
 ```
 
