@@ -17,7 +17,7 @@ The instructions below use the ROS distro `noetic` and `Ubuntu 20.02` as an exam
 ## Preliminaries
 If you haven't already installed ROS on your PC, you need to add the ROS apt repository. This step is necessary for either binary or source install.
 
-```
+```ruby
 sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
 wget http://packages.ros.org/ros.key -O - | sudo apt-key add -
 sudo apt-get update -qq
