@@ -57,6 +57,7 @@ catkin_make -DCMAKE_BUILD_TYPE=RelWithDebugInfo
 ```
 > [!WARNING]
 > For `rosdep install --from-paths ./ -i -y --rosdistro noetic`
+> 
 > ERROR: Rosdep experienced an error: manifest [/home/jun/gazebo_mrt/models/sun/manifest.xml] must have a single 'package' element
 
 > [!TIP]
