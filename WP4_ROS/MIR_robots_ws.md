@@ -90,11 +90,35 @@ And then, retry the  `catkin_make` in the `MIR_robots_ws` folder. You will get t
 > map_serverConfig.cmake  
 > map_server-config.cmake
 
-YOu can run the folowing code to install `map_server` in ROS NOETIC in Ubuntu 20.04:
-```
+You can run the folowing code to install `map_server` in ROS NOETIC in Ubuntu 20.04:
+```bash
 sudo apt update
 sudo apt install ros-noetic-map-server
 ```
+The next ERROR is that 
+> [!WARNING]
+> Could not find a package configuration file provided by "move_base_msgs"
+  with any of the following names:
+> move_base_msgsConfig.cmake
+> move_base_msgs-config.cmake
+
+The following code can fix it:
+```bash
+sudo apt install ros-noetic-move-base-msgs
+```
+
+For convenience, I will no longer list all error messages, but only the code that needs to be run.
+```bash
+sudo apt-get install ros-noetic-rospy-message-converter
+sudo apt-get install ros-noetic-costmap-2d
+sudo apt-get install ros-noetic-navigation
+```
+
+> [!CAUTION]
+> The ERROR above can be fixed by two steps:
+> RUN `sudo apt-get install ros-noetic-navigation`
+> RUN `sudo apt-get install ros-noetic-rospy-message-converter`
+
 
 
 You should add the following line to the end of your `~/.bashrc`, and then close and reopen all terminals:
