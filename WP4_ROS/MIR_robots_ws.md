@@ -83,6 +83,13 @@ cd ~/MIR_robots_ws/src
 git clone https://github.com/locusrobotics/robot_navigation.git
 ```
 
+And then, retry the  `catkin_make` in the `MIR_robots_ws` folder. You will get the following ERROR:
+
+> [!WARNING]
+> Could not find a package configuration file provided by "map_server" with any of the following names:
+> map_serverConfig.cmake
+> map_server-config.cmake
+
 
 You should add the following line to the end of your `~/.bashrc`, and then close and reopen all terminals:
 ```ruby
