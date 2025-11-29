@@ -114,6 +114,13 @@ sudo apt-get install ros-noetic-costmap-2d
 sudo apt-get install ros-noetic-navigation
 ```
 
+After fixed all the ERRORs, run
+```bash
+cd ~/MIR_robots_ws
+catkin_make
+source devel/setup.bash
+```
+
 > [!CAUTION]
 > The ERROR above can be fixed by two steps:  
 > RUN `sudo apt-get install ros-noetic-navigation`  
