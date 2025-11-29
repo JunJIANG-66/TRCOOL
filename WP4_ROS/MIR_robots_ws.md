@@ -76,8 +76,12 @@ catkin_make
 > costmap_queueConfig.cmake  
 > costmap_queue-config.cmake
 
-
-
+> [!NOTE]
+> Run the following code to install `costmap_queue` in ROS NOETIC
+```
+cd ~/MIR_robots_ws/src
+git clone https://github.com/locusrobotics/robot_navigation.git
+```
 
 
 You should add the following line to the end of your `~/.bashrc`, and then close and reopen all terminals:
