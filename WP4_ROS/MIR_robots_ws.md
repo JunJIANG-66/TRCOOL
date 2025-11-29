@@ -74,7 +74,9 @@ catkin_make
 > 
 > Could not find a package configuration file provided by "costmap_queue"
   with any of the following names:
+> 
 > costmap_queueConfig.cmake
+> 
 > costmap_queue-config.cmake
 
 
