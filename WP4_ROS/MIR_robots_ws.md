@@ -49,6 +49,11 @@ sudo rosdep init
 rosdep update --include-eol-distros
 rosdep install --from-paths ./ -i -y --rosdistro noetic
 
+> [!ERROR]
+> ERROR: Rosdep experienced an error: manifest [/home/jun/gazebo_mrt/models/sun/manifest.xml] must have a single 'package' element
+
+
+
 # build all packages in the catkin workspace
 source /opt/ros/noetic/setup.bash
 catkin_init_workspace
