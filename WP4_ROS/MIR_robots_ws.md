@@ -49,7 +49,7 @@ sudo rosdep init
 rosdep update --include-eol-distros
 rosdep install --from-paths ./ -i -y --rosdistro noetic
 
-> [!ERROR]
+> [!WARNING]
 > ERROR: Rosdep experienced an error: manifest [/home/jun/gazebo_mrt/models/sun/manifest.xml] must have a single 'package' element
 
 
