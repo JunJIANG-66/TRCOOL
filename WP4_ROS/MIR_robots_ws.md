@@ -118,7 +118,7 @@ After fixed all the ERRORs, run
 ```bash
 cd ~/MIR_robots_ws
 catkin_make
-source devel/setup.bash
+echo "source ~/MIR_robots_ws/devel/setup.bash" >> ~/.bashrc
 ```
 
 > [!CAUTION]
