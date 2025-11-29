@@ -90,6 +90,12 @@ And then, retry the  `catkin_make` in the `MIR_robots_ws` folder. You will get t
 > map_serverConfig.cmake  
 > map_server-config.cmake
 
+YOu can run the folowing code to install `map_server` in ROS NOETIC in Ubuntu 20.04:
+```
+sudo apt update
+sudo apt install ros-noetic-map-server
+```
+
 
 You should add the following line to the end of your `~/.bashrc`, and then close and reopen all terminals:
 ```ruby
