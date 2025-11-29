@@ -56,8 +56,7 @@ cd ~/MIR_robots_ws
 catkin_make -DCMAKE_BUILD_TYPE=RelWithDebugInfo
 ```
 > [!WARNING]
-> For `rosdep install --from-paths ./ -i -y --rosdistro noetic`
-> 
+> For `rosdep install --from-paths ./ -i -y --rosdistro noetic`  
 > ERROR: Rosdep experienced an error: manifest [/home/jun/gazebo_mrt/models/sun/manifest.xml] must have a single 'package' element
 
 > [!TIP]
@@ -73,10 +72,8 @@ catkin_make
 > The ERROR information is
 > 
 > Could not find a package configuration file provided by "costmap_queue"
-  with any of the following names:
-> 
-> costmap_queueConfig.cmake
-> 
+  with any of the following names:  
+> costmap_queueConfig.cmake  
 > costmap_queue-config.cmake
 
 
