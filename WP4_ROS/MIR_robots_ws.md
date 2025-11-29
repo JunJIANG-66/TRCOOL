@@ -86,8 +86,8 @@ git clone https://github.com/locusrobotics/robot_navigation.git
 And then, retry the  `catkin_make` in the `MIR_robots_ws` folder. You will get the following ERROR:
 
 > [!WARNING]
-> Could not find a package configuration file provided by "map_server" with any of the following names:
-> map_serverConfig.cmake
+> Could not find a package configuration file provided by "map_server" with any of the following names:  
+> map_serverConfig.cmake  
 > map_server-config.cmake
 
 
