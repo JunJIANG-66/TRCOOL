@@ -64,6 +64,22 @@ catkin_make -DCMAKE_BUILD_TYPE=RelWithDebugInfo
 > Ignore the ERROR.
 
 
+Retry the `catkin_make` in the `MIR_robots_ws` folder.
+```
+cd ~/MIR_robots_ws
+catkin_make
+```
+> [!WARNING]
+> The ERROR information is
+> 
+> Could not find a package configuration file provided by "costmap_queue"
+  with any of the following names:
+> costmap_queueConfig.cmake
+> costmap_queue-config.cmake
+
+
+
+
 
 You should add the following line to the end of your `~/.bashrc`, and then close and reopen all terminals:
 ```ruby
