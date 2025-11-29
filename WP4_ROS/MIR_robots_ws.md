@@ -115,8 +115,8 @@ sudo apt-get install ros-noetic-navigation
 ```
 
 > [!CAUTION]
-> The ERROR above can be fixed by two steps:
-> RUN `sudo apt-get install ros-noetic-navigation`
+> The ERROR above can be fixed by two steps:  
+> RUN `sudo apt-get install ros-noetic-navigation`  
 > RUN `sudo apt-get install ros-noetic-rospy-message-converter`
 
 
