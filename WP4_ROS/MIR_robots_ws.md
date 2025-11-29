@@ -49,17 +49,19 @@ sudo rosdep init
 rosdep update --include-eol-distros
 rosdep install --from-paths ./ -i -y --rosdistro noetic
 
-> [!WARNING]
-> ERROR: Rosdep experienced an error: manifest [/home/jun/gazebo_mrt/models/sun/manifest.xml] must have a single 'package' element
-
-
-
 # build all packages in the catkin workspace
 source /opt/ros/noetic/setup.bash
 catkin_init_workspace
 cd ~/MIR_robots_ws
 catkin_make -DCMAKE_BUILD_TYPE=RelWithDebugInfo
 ```
+> [!WARNING]
+> ERROR: Rosdep experienced an error: manifest [/home/jun/gazebo_mrt/models/sun/manifest.xml] must have a single 'package' element
+
+> [!TIP]
+> Ignore the ERROR.
+
+
 
 You should add the following line to the end of your `~/.bashrc`, and then close and reopen all terminals:
 ```ruby
