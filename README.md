@@ -79,6 +79,7 @@ TRCOOL_Project/
 ├── WP4_ROS/
 │   ├── launch/
 │   ├── src/
+│   ├── MIR_robots_ws.md
 │   ├── README.md
 │
 └── README.md   ← (this file)
